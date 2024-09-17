@@ -1,11 +1,11 @@
-description: Successful response after deleting a File.
+description: Response after deleting a group post.
 content:
   application/json:
     schema:
       $ref: ../../schemas/Success.yaml
     examples:
-      File Deleted Success:
+      Deleted Group Post:
         value:
           success:
-            message: File deleted
+            message: Group Post was deleted!
             status_code: 200
